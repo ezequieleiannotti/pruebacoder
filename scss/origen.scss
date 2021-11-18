@@ -83,6 +83,7 @@ header{
     width: 100%;
     height: 100%;
     margin-top: 100px;
+    min-height: 100%;
     }
 .tituloMedio2 {
     text-align: center;
@@ -143,7 +144,7 @@ header{
 /* ----------------contenedores-------*/          
 .principal {
     background-image:url(../imagen/fondo.jpg); 
-     background-repeat:no-repeat;
+    background-repeat:no-repeat;
     display: inline-block;
     margin-block-end: auto;
     height: 80vh;
@@ -152,6 +153,7 @@ header{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    min-height: 100%;
     
     }
 .centrado {
@@ -162,6 +164,7 @@ header{
     /* alineacion horizontal */
     justify-content: center;
      width:100%;
+     min-height: 100%;
     }
 .medio {
     display: inline-block;
@@ -183,7 +186,7 @@ header{
 .fondoContacto {
     background-image:url(../imagen/ethercontacto.jfif); 
     background-repeat:no-repeat;
-    display: inline-block;
+    display: inline-flexbox;
     margin-block-end: auto;
     height: 80vh;
     width: 100%;
@@ -191,6 +194,7 @@ header{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    min-height: 100%;
     } 
 .video { 
     margin-top: 200px;
