@@ -83,6 +83,7 @@ header{
     width: 100%;
     height: 100%;
     margin-top: 100px;
+    min-height: 100%;
     }
 .tituloMedio2 {
     text-align: center;
@@ -143,7 +144,7 @@ header{
 /* ----------------contenedores-------*/          
 .principal {
     background-image:url(../imagen/fondo.jpg); 
-     background-repeat:no-repeat;
+    background-repeat:no-repeat;
     display: inline-block;
     margin-block-end: auto;
     height: 80vh;
@@ -152,6 +153,7 @@ header{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    min-height: 100%;
     
     }
 .centrado {
@@ -162,6 +164,7 @@ header{
     /* alineacion horizontal */
     justify-content: center;
      width:100%;
+     min-height: 100%;
     }
 .medio {
     display: inline-block;
@@ -182,14 +185,9 @@ header{
     }    
 .fondoContacto {
     background-image:url(../imagen/ethercontacto.jfif); 
-    background-repeat:no-repeat;
-    display: inline-block;
-    margin-block-end: auto;
-    height: 80vh;
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
     background-size: cover;
     } 
 .video { 
@@ -217,7 +215,8 @@ header{
     margin-bottom: 20px;
     }
 .colorContacto{
-        color: white;
+        color: red;
+        font: 100;
     }
 .contacto {
     color: $yellow;
@@ -266,6 +265,8 @@ footer {
 .nosotros__espacios {
     padding-top: 40px;
     padding-bottom: 100px;
+    color: floralwhite;
+    font-size: 20px;
 }
 .blanquito {
     color: white
@@ -309,3 +310,103 @@ $desktop: 1200px;
         background-color: pink;
     }
   }
+
+section.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("../imagen/fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+section.masthead .masthead-subheading {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+  section.masthead .masthead-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  #pricing {
+    padding: 100px 0 70px;
+  }
+  #pricing ul.pricing {
+    list-style: none;
+    padding: 0;
+    margin: 70px 0 30px;
+    border: 1px solid #D0D0D0; 
+    padding: 8px;
+    text-align: center;
+    background: #B8B8B8;
+  }
+  #pricing ul.pricing li {
+    display: block;
+    padding: 10px;
+  }
+  #pricing ul.pricing li.plan-header {
+    background: #FFFFFF; 
+    padding: 15px 15px 30px;
+    color: #050505 !important;
+    border: 1px solid #ECECEC;
+    border-radius: 50%;
+    height: 225px;
+  }
+  #pricing ul.pricing li.plan-header .price-duration {
+    position: relative;
+    margin-top: 15px;
+    top: -16px;
+    display: inline-block;
+    width: 100%;
+    height: 85px; 
+    color: #474747;  
+  }
+  li.plan-purchase .btn {
+    width: 100%;
+  }
+  #pricing ul.pricing li.plan-header .price-duration > span {
+    display: block;
+    line-height: 1;
+  }
+  #pricing ul.pricing li.plan-header .price-duration > span.price {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 35px;
+  }
+  #pricing ul.pricing li.plan-header .price-duration > span.duration {
+    margin-top: 5px;
+  }
+  #pricing ul.pricing li.plan-header .plan-name {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #5A5A5A;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+  #pricing ul.pricing.featured {
+    background: #151515; 
+    border: 0;
+    color: #D2D2D2;
+    border: 1px solid #D0D0D0;
+  }
+  #pricing ul.pricing.featured  li.plan-header .price-duration{
+  color: #FFFFFF;
+  }
+  #pricing ul.pricing.featured li.plan-header {
+    background: #F9690E;
+  }
+  #pricing ul.pricing.featured li.plan-header .plan-name {
+    color: #FFFFFF;
+  }
+.colortexto {
+    color:white
+}
