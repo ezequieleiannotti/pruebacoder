@@ -96,8 +96,7 @@ header {
   font-size: 18px;
   width: 100%;
   text-align: center;
-  padding-top: 100px;
-  height: 40vh; }
+  padding-top: 100px; }
 
 .nosotros2 {
   background-color: #f5e16e;
@@ -167,7 +166,7 @@ header {
   width: 40px; }
 
 .fondoContacto {
-  background-image: url(../imagen/ethercontacto.jfif);
+  background-image: url(../imagen/fondocontacto.jpeg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -198,7 +197,7 @@ header {
   margin-bottom: 20px; }
 
 .colorContacto {
-  color: red;
+  color: white;
   font: 100; }
 
 .contacto {
@@ -248,7 +247,8 @@ footer {
   padding-top: 40px;
   padding-bottom: 100px;
   color: floralwhite;
-  font-size: 20px; }
+  font-size: 20px;
+  padding: 20px; }
 
 .blanquito {
   color: white; }
@@ -379,3 +379,6 @@ li.plan-purchase .btn {
 
 .colortexto {
   color: white; }
+
+.card__fondo {
+  background-color: transparent; }

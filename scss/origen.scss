@@ -104,7 +104,6 @@ header{
     width: 100%;
     text-align: center;
     padding-top: 100px;
-    height: 40vh;
     }
 .nosotros2{
     background-color: $yellow;
@@ -184,7 +183,7 @@ header{
     width: 40px;
     }    
 .fondoContacto {
-    background-image:url(../imagen/ethercontacto.jfif); 
+    background-image:url(../imagen/fondocontacto.jpeg); 
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -215,7 +214,7 @@ header{
     margin-bottom: 20px;
     }
 .colorContacto{
-        color: red;
+        color: white;
         font: 100;
     }
 .contacto {
@@ -267,6 +266,7 @@ footer {
     padding-bottom: 100px;
     color: floralwhite;
     font-size: 20px;
+    padding: 20px;
 }
 .blanquito {
     color: white
@@ -409,4 +409,7 @@ section.masthead .masthead-subheading {
   }
 .colortexto {
     color:white
+}
+.card__fondo {
+    background-color: transparent;
 }
