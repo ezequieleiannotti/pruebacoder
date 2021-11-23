@@ -121,7 +121,6 @@ header {
   width: 100%;
   text-align: center;
   padding-top: 100px;
-  height: 40vh;
 }
 
 .nosotros2 {
@@ -323,6 +322,7 @@ footer {
   padding-bottom: 100px;
   color: floralwhite;
   font-size: 20px;
+  padding: 20px;
 }
 
 .blanquito {
@@ -480,5 +480,9 @@ li.plan-purchase .btn {
 
 .colortexto {
   color: white;
+}
+
+.card__fondo {
+  background-color: transparent;
 }
 /*# sourceMappingURL=origen.css.map */
