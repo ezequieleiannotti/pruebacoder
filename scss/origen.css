@@ -485,4 +485,38 @@ li.plan-purchase .btn {
 .card__fondo {
   background-color: transparent;
 }
+
+.presentacion-producto {
+  padding: 50px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.presentacion-producto img {
+  width: 200px;
+  cursor: pointer;
+  border-radius: 30%;
+}
+
+.presentacion-producto img:hover {
+  -webkit-transform: translate(0, -15px);
+          transform: translate(0, -15px);
+}
+
+.botton-more {
+  display: inline-block;
+  color: gold;
+  padding: 10px 30px;
+  border: 2px solid #f5e16e;
+  border-radius: 30px;
+  margin-top: 15px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  text-decoration: none;
+}
 /*# sourceMappingURL=origen.css.map */

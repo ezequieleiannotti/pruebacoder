@@ -413,3 +413,28 @@ section.masthead .masthead-subheading {
 .card__fondo {
     background-color: transparent;
 }
+
+.presentacion-producto {
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .presentacion-producto img {
+    width: 200px;
+    cursor: pointer;
+    border-radius: 30%;
+  }
+  .presentacion-producto img:hover {
+     transform: translate(0, -15px); 
+  }
+  .botton-more {
+    display: inline-block;
+    color: gold;
+    padding: 10px 30px;
+    border: 2px solid $yellow;
+    border-radius: 30px;
+    margin-top: 15px;
+    transition: all 0.4s;
+    text-decoration: none;
+  }
