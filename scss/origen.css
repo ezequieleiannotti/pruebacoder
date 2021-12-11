@@ -159,7 +159,6 @@ header {
   color: #f5e16e;
 }
 
-/* ----------------contenedores-------*/
 .principal {
   background-image: url(../imagen/fondo.jpg);
   background-repeat: no-repeat;
@@ -199,14 +198,7 @@ header {
   text-align: center;
 }
 
-.logo2 {
-  background-image: url(./imagen/etherblack.jpg);
-  background-repeat: no-repeat;
-  display: inline-block;
-  background-size: 100%;
-  -webkit-margin-after: auto;
-          margin-block-end: auto;
-}
+
 
 .loguito {
   width: 40px;
@@ -320,7 +312,7 @@ footer {
 .nosotros__espacios {
   padding-top: 40px;
   padding-bottom: 100px;
-  color: floralwhite;
+  color: rgb(255, 255, 240);
   font-size: 20px;
   padding: 20px;
 }
